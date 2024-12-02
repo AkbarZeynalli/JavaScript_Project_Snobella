@@ -1,0 +1,103 @@
+.containerS{
+    max-width: 1128px;
+    margin: auto;
+}
+
+
+
+  
+
+@media only screen and (max-width: 992px) {
+    .featuredPrd{
+        .products{
+            gap: 10px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            .navbuts{
+                display: none;
+            }
+            .product{
+                .content{
+                    font-size: 13px;
+                }
+            }
+        }
+
+  }
+}
+@media only screen and (max-width: 1530px) {
+    .featuredPrd{
+        .products{
+            gap: 10px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            padding: 0px;
+            margin: 0px;
+
+            .navbuts{
+                display: none;
+            }
+            .products {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 20px;
+              }
+              
+              .product {
+                border: 1px solid #ddd;
+                padding: 20px;
+                border-radius: 8px;
+                display: flex;
+                flex-direction: column;
+              }
+              
+              .imageProduct img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 4px;
+              }
+              
+              .content {
+                flex-grow: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-top: 10px;
+              }
+              
+              .money {
+                font-weight: bold;
+              }
+              
+              .basketButton {
+                background-color: #007bff;
+                color: #fff;
+                border: none;
+                padding: 10px 15px;
+                border-radius: 4px;
+                cursor: pointer;
+                margin-top: 10px;
+              }
+              
+              .iconfav {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 10px;
+              }
+              
+              .iconfav img {
+                width: 24px;
+                height: 24px;
+              }
+              
+                .content{
+                    font-size: 13px;
+                }
+            }
+        }
+
+  }
+
